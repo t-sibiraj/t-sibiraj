@@ -1,0 +1,71 @@
+.sql-nav{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 2px 2px 2px 5px black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hover{
+		color: black;
+		display: inline-block;
+		font-weight: bold;
+		box-sizing: border-box;
+		cursor: pointer;
+		overflow: hidden;
+		box-sizing: border-box;
+}
+
+
+
+.hover a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Monaco",monospace;
+	color: white;
+}
+
+/*.hover:hover{
+	background-color: black;
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px 2px black;
+	transform: scale(0.98);
+	color: white;
+}*/
+
+
+
+.hover a:hover{
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px 2px black;
+	transform: scale(0.98);
+
+}
+a:active ,a:link , a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+
+.sql{
+	background-color: black;
+	color: white;
+	border:2px solid black;
+	font-size: 30px;
+    font-family: "Monaco",monospace;
+}
+
+.img-hover:hover{
+	background-color: none;
+}
+
+.sql{
+	padding-top: 20px;
+}
